@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mt.Zion Church</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="branding">
+          <h2><a href="#" class="branding-logo">Mt.ZionChurch</a></h2>
+        </div>
+        <label for="input-hamburger" class="hamburger"></label>
+        <input type="checkbox" id="input-hamburger" hidden />
+        <ul class="menu">
+          <li><a href="index.html" class="menu-link">Home</a></li>
+
+          <li class="has-dropdown">
+            <a tabindex="0" class="menu-link"
+              >About Us
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+              <li>
+                <a href="about.html" class="menu-link"
+                  >About Pastor Deo Kaggwa</a
+                >
+              </li>
+              <li>
+                <a href="profile.html" class="menu-link">Ministry Profile</a>
+              </li>
+              <li><a href="gallery.html" class="menu-link">Gallery</a></li>
+            </ul>
+          </li>
+
+          <li class="has-dropdown">
+            <a tabindex="0" class="menu-link"
+              >Services
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+              <li>
+                <a href="services.html" class="menu-link">Services Schedule</a>
+              </li>
+              <li><a href="live.html" class="menu-link">Live Streaming</a></li>
+              <li><a href="audio.html" class="menu-link">Audio Sermons</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html" class="menu-link">Blog</a></li>
+
+          <li><a href="contact.html" class="menu-link">Contact</a></li>
+          <li><a href="give.html" class="menu-link">Give</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="banner-area-1">
+      <h2>Give | Offer | Sow | Tithe</h2>
+      <!--<h3>You're Welcome! We Are Glad You Are Here</h3>-->
+    </div>
+
+    <section class="give">
+      <h1>Offering | Tithing | Sowing | Donating</h1>
+
+      <b>
+        Send Your Seed, Tithe, Donation,Offering Through the Methods Available
+        Below
+      </b>
+      <div class="square">
+        <div><img src= images/seed.png alt="image"></div>
+
+        <p>
+          Dear friend, <br />We want to greatly thank you for your generousity.
+          Thank you for choosing to support Godly work through your giving. What
+          you are doing is not ordinary, its extra ordinary coz your giving,
+          tithing, offfering; is supernaturally helping in the spread of the
+          gospel of our Lord Jesus Christ.<br />&nbsp;<br />
+          And we want to assure you that God is gonna bless you mightly just as
+          His word says in [Malachi 3:10-11] that He will rebuke the devourer
+          for your sake, open up gates of Heaven and pour out a blessing that
+          there shall not be room enough to receive it.<br />&nbsp;<br />[Luke
+          6:38] "Give it shall be given back to you, good measure, pressed down,
+          and shaken together and running over shall men give into your
+          bosom.<br />
+          [Hebrews 6:10] God is not unjust; He will not forget your work and the
+          love you have shown.
+        </p>
+      </div>
+    </section>
+    <section class="methods">
+      <h1>Methods Available:</h1>
+      <p>
+        MTN mobile Money - +256-772 446800.<br />Airtel Money - +256-752
+        475677<br />Other methods will be available very soon.
+      </p>
+      <b>Thank you for your Generousity.<br />---God Bless You---</b>
+    </section>
+
+    <!-----Footer---->
+
+    <section class="footer">
+      <div class="main-content">
+        <div class="left box">
+          <h4>Follow Us</h4>
+          <div class="icons">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+          </div>
+        </div>
+        <div class="center box">
+          <h4>Address</h4>
+          <div class="content">
+            <div class="place">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span class="text"
+                >MT.Zion Ministries,<br />Kampala-Entebbe Road,<br />Kawuku-Entebbe,<br />Uganda.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h4>Contact Us</h4>
+          <div class="content">
+            <div class="phone">
+              <i class="fa fa-phone"></i>
+              <span class="text">+256-772 446800</span>
+            </div>
+            <div class="email">
+              <i class="fa fa-envelope"></i>
+              <span class="text">info@mountzionchurchug.org</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p4
+        >Copyright © 2021 Mt.Zion Ministries | All Rights Reserved | Privacy
+        Policy</p4
+      >
+    </section>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      hamburger.addEventListener("click", function () {
+        this.classList.toggle("close");
+      });
+    </script>
+  </body>
+</html>

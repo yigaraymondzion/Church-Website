@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mt.Zion Church</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="branding">
+          <h2><a href="#" class="branding-logo">Mt.ZionChurch</a></h2>
+        </div>
+        <label for="input-hamburger" class="hamburger"></label>
+        <input type="checkbox" id="input-hamburger" hidden />
+        <ul class="menu">
+          <li><a href="index.html" class="menu-link">Home</a></li>
+
+          <li class="has-dropdown">
+            <a tabindex="0" class="menu-link"
+              >About Us
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+              <li>
+                <a href="about.html" class="menu-link"
+                  >About Pastor Deo Kaggwa</a
+                >
+              </li>
+              <li>
+                <a href="profile.html" class="menu-link">Ministry Profile</a>
+              </li>
+              <li><a href="gallery.html" class="menu-link">Gallery</a></li>
+            </ul>
+          </li>
+
+          <li class="has-dropdown">
+            <a tabindex="0" class="menu-link"
+              >Services
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+              <li>
+                <a href="services.html" class="menu-link">Services Schedule</a>
+              </li>
+              <li><a href="live.html" class="menu-link">Live Streaming</a></li>
+              <li><a href="audio.html" class="menu-link">Audio Sermons</a></li>
+              <!--<li class="has-dropdown">
+                <a href="#" class="menu-link">Full Stack Development
+                  <span class="arrow"></span>
+                </a>
+                <ul class="submenu">
+                  <li><a href="#" class="menu-link">Wordpress Development</a></li>
+                  <li><a href="#" class="menu-link">Front End Development</a></li>
+                  <li class="has-dropdown">
+                    <a href="#" class="menu-link">MEAN Stack Development
+                      <span class="arrow"></span>
+                    </a>
+                    <ul class="submenu">
+                      <li><a href="#" class="menu-link">MongoDb</a></li>
+                      <li><a href="#" class="menu-link">ExpressJS</a></li>
+                      <li><a href="#" class="menu-link">AngularJS</a></li>
+                      <li><a href="#" class="menu-link">NodeJS</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#" class="menu-link">Back End Development</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="menu-link">UI/UX Design</a></li>-->
+            </ul>
+          </li>
+          <li><a href="blog.html" class="menu-link">Blog</a></li>
+
+          <li><a href="contact.html" class="menu-link">Contact</a></li>
+          <li><a href="give.html" class="menu-link">Give</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="banner-area-1">
+      <h2>Contact Us</h2>
+      <!--<h3>You're Welcome! We Are Glad You Are Here</h3>-->
+    </div>
+
+    <!----------- Contact Us------->
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.806674928497!2d32.5364362044206!3d0.13843268875234757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177d9b974f2091bd%3A0x806d9985444f5d55!2sMt.%20Zion%20Church%20Kawuku!5e0!3m2!1sen!2sin!4v1618799739357!5m2!1sen!2sin"
+        width="600"
+        height="500"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="Hear">
+        <p1 style="color: #0073cf">We Are So Glad To Hear From You.</p1>
+      </div>
+      <div class="row">
+        <div class="contact-col">
+          <!--<form action="https://formspree.io/f/meqvagkp" method="post">
+        <!--<form action="file-handler.php" method="post"-->
+          <form action="https://formcarry.com/s/LPCtuQmnCiD" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter email address"
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Enter your subject"
+              required
+            />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <input type="hidden" name="_gotcha" />
+            <button type="submit" class="here-btn red-btn">send message</button>
+          </form>
+        </div>
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <span>
+              <h5 style="color: #0073cf">Mt.Zion Church</h5>
+              <p>Kawuku-Entebbe, Uganda</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>
+              <h5 style="color: #0073cf">Call +256 772 446800</h5>
+              <p>Monday to Saturday, 10AM to 6PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <p style="color: #0073cf">Email us</p>
+              <h5>info@mountzionchurchug.org</h5>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----Footer---->
+
+    <section class="footer">
+      <div class="main-content">
+        <div class="left box">
+          <h4>Follow Us</h4>
+          <div class="icons">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+          </div>
+        </div>
+        <div class="center box">
+          <h4>Address</h4>
+          <div class="content">
+            <div class="place">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span class="text"
+                >MT.Zion Ministries,<br />Kampala-Entebbe Road,<br />Kawuku-Entebbe,<br />Uganda.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h4>Contact Us</h4>
+          <div class="content">
+            <div class="phone">
+              <i class="fa fa-phone"></i>
+              <span class="text">+256-772 446800</span>
+            </div>
+            <div class="email">
+              <i class="fa fa-envelope"></i>
+              <span class="text">info@mountzionchurchug.org</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p4
+        >Copyright © 2021 Mt.Zion Ministries | All Rights Reserved | Privacy
+        Policy</p4
+      >
+    </section>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      hamburger.addEventListener("click", function () {
+        this.classList.toggle("close");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mt.Zion Church</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="branding">
+          <h2><a href="#" class="branding-logo">Mt.ZionChurch</a></h2>
+        </div>
+        <label for="input-hamburger" class="hamburger"></label>
+        <input type="checkbox" id="input-hamburger" hidden />
+        <ul class="menu">
+          <li><a href="index.html" class="menu-link">Home</a></li>
+
+          <li class="has-dropdown">
+            <a tabindex="0" class="menu-link"
+              >About Us
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+              <li>
+                <a href="about.html" class="menu-link"
+                  >About Pastor Deo Kaggwa</a
+                >
+              </li>
+              <li>
+                <a href="profile.html" class="menu-link">Ministry Profile</a>
+              </li>
+              <li><a href="gallery.html" class="menu-link">Gallery</a></li>
+            </ul>
+          </li>
+
+          <li class="has-dropdown">
+            <a tabindex="0" class="menu-link"
+              >Services
+              <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+              <li>
+                <a href="services.html" class="menu-link">Services Schedule</a>
+              </li>
+              <li><a href="live.html" class="menu-link">Live Streaming</a></li>
+              <li><a href="audio.html" class="menu-link">Audio Sermons</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html" class="menu-link">Blog</a></li>
+
+          <li><a href="content.html" class="menu-link">Contact</a></li>
+          <li><a href="give.html" class="menu-link">Give</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="banner-area-1">
+      <h2>Get Involved</h2>
+      <!--<h3>You're Welcome! We Are Glad You Are Here</h3>-->
+    </div>
+
+    <!-----------Services------->
+
+    <section class="course">
+      <h1 style="color: #0073cf">Our Schedule</h1>
+      <div class="boxed">
+        <p1>UPDATES WILL APPEAR HERE VERY SOON...</p1>
+      </div>
+      <div class="row">
+        <div class="course-col">
+          <h3 style="color: #0073cf">Sunday Schedule</h3>
+          <p>1st Service: 8:00AM-10:00AM</p>
+          <br />
+          <p>2nd Service: 10:00AM-1:00PM</p>
+          <br />
+          <p>Outreach: 2:00PM-5:00PM</p>
+          <br />
+          <p>3rd Service: 6:30PM-9:00PM</p>
+        </div>
+        <div class="course-col">
+          <h3 style="color: #0073cf">Weekly Sermons & Prayers</h3>
+          <p>Monday: 6PM-9PM</p>
+          <br />
+          <p>Tuesday: 6PM-9PM</p>
+          <br />
+          <p>Thursday: 6PM-9PM</p>
+          <br />
+          <p>Friday: 7PM-9PM</p>
+        </div>
+        <div class="course-col">
+          <h3 style="color: #0073cf">Others</h3>
+          <p>
+            Wednesday: 10AM-5PM - Outreach<br />&nbsp;<br />Thursday: 10AM-5PM -
+            Counselling & Guidance
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-----Facilities---->
+
+    <section class="facilities">
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/life.png" />
+          <h3>Did You Give Your Life To Christ?</h3>
+          <a href="content.html" class="here-btn">Share With Us</a>
+        </div>
+        <div class="facilities-col">
+          <img src="images/prayer.png" />
+          <h3>We Believe In The Power Of Prayer</h3>
+          <a href="contact.html" class="here-btn">Submit Your Prayer Request</a>
+        </div>
+        <div class="facilities-col">
+          <img src="images/testimony.png" />
+          <h3>There's Power In Your Testimony</h3>
+          <a href="content.html" class="here-btn">Submit Your Testimony Here</a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="solid" />
+
+    <!-----Footer---->
+
+    <section class="footer">
+      <div class="main-content">
+        <div class="left box">
+          <h4>Follow Us</h4>
+          <div class="icons">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+          </div>
+        </div>
+        <div class="center box">
+          <h4>Address</h4>
+          <div class="content">
+            <div class="place">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span class="text"
+                >MT.Zion Ministries,<br />Kampala-Entebbe Road,<br />Kawuku-Entebbe,<br />Uganda.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h4>Contact Us</h4>
+          <div class="content">
+            <div class="phone">
+              <i class="fa fa-phone"></i>
+              <span class="text">+256-772446800</span>
+            </div>
+            <div class="email">
+              <i class="fa fa-envelope"></i>
+              <span class="text">info@mountzionchurchug.org</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p4
+        >Copyright © 2021 Mt.Zion Ministries | All Rights Reserved | Privacy
+        Policy</p4
+      >
+    </section>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      hamburger.addEventListener("click", function () {
+        this.classList.toggle("close");
+      });
+    </script>
+  </body>
+</html>
